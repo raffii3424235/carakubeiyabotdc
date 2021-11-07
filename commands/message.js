@@ -10,7 +10,7 @@ module.exports = {
     },
     aliases: ["web", "websites"],
 
-    run: async (client, message) => {
+    run: async (client) => {
         const embed = new MessageEmbed();
         embed.setColor(client.botconfig.EmbedColor);
         embed.setTitle(`Website dari ${client.user.username}`);
